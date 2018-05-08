@@ -47,8 +47,11 @@ a{
 	margin-left: 50px;
 	color: #FFFFFF;
 }
+#about-me ul li a:hover{
+	color: red;
+}
 #about-me ul li a{
-	color: #FFFFFF;
+	
 }
 #about-me ul li #first{
 	color: #777777;
