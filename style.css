@@ -1,0 +1,429 @@
+/**{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}*/
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+	font-family: BigNoodleTitling;
+}
+a{
+	text-decoration: none;
+	color: #3b8bba;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0,5s;
+}
+#about-me{
+	width: 1024px;
+	height: 92px;
+	margin: auto;
+	border: 1px solid;
+	background-color: #111111;
+
+}
+#about-me img{
+	float: left;
+	margin-left: 50px;
+	margin-top: -4px;
+}
+#about-me ul{
+	margin-left: 105px;
+	width: 450px;
+	height: 70px;
+	float:left;
+}
+#about-me ul li{
+
+	float:left;
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 60px;
+	margin-left: 50px;
+	color: #FFFFFF;
+}
+#about-me ul li a{
+	color: #FFFFFF;
+}
+#about-me ul li #first{
+	color: #777777;
+}
+#about-me #icon{
+	float: left;
+
+}
+#about-me #icon a{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+#image{
+	clear: left;
+	border-bottom: 1px solid #CCCCCC;
+	width: 1024px;
+	height: 450px;
+	margin: 50px auto;
+}	
+#image #left-img{
+	padding-top: 40px;
+	float: left;
+	width: 400px;
+}
+#image #left-img #about-img{
+	font-size: 75px;
+	font-weight: bold;
+}
+#image #left-img #info-img{
+	font-size: 21px;
+	color: #666666;
+	margin-bottom: 20px;
+	font-family: monospace;
+}
+#image #left-img #new-img{
+	font-size: 15px;
+	color: #222222;
+	line-height: 20px;
+	margin-bottom: 20px;
+	font-family: monospace;
+}
+#image #left-img #like{
+	border: 1px solid;
+	width: 120px;
+	height: 25px;
+/*	background-color: #4267b2;*/
+	background-color: #365899;
+	border-radius: 4px 4px 4px 4px;
+	float:left;
+}
+#image #left-img #like:hover{
+	background-color: #4267b2;
+}
+#image #left-img #like img{
+	padding-top: 3px;
+	width: 20px;
+	height: 20px;
+	float:left;
+	padding-left: 10px;
+	
+}
+#image #left-img #like div{
+	
+	float: left;
+	line-height: 23px;
+	color: #FFFFFF;
+	text-indent: 10px;
+	font-size: 16px;
+	font-family: cursive;
+}
+#image #left-img #follow{
+	height: 50px;
+	float:left;
+	text-decoration: underline;
+	margin-left: 40px;
+	line-height: 20px;
+	font-size: 17px;
+	color: #777777;
+}
+
+#image #right-img img{
+	width: 450px;
+	height: 450px;
+	float:left;
+	margin-left: 130px;
+}
+#part{
+	margin:auto;
+	
+	width: 1024px;
+	height: 100px;
+	margin-top: -35px;
+}
+#part .part-img1{
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 2px;
+	padding-bottom: -1px;
+	border: 1px solid #CCCCCC;
+	width: 142px;
+	border-radius: 5px 5px 5px 5px;
+	float:left;
+	margin-left: 17px;
+}
+#part .part-img1 img{
+	border-radius: 5px 5px 5px 5px; 
+}
+#coder{
+	
+	width: 1024px;
+	height: 500px;
+	margin:auto;
+	padding-top: 30px;
+	
+}
+#big-coder #coder #coder-part{
+	
+	width: 300px;
+	height: 400px;
+	color: #777777;
+	float:left;
+	margin-top: 55px;
+}
+#big-coder #coder #coder-part #top-bot{
+	font-size: 40px;
+}
+#big-coder #coder #coder-part #bottom-bot{
+	
+	font-size:20px;
+	line-height: 40px;
+}
+#big-coder #coder .design{
+	
+	width: 400px;
+	float:left;
+}
+#big-coder #coder #coder-right{
+	
+	width: 200px;
+	height: 400px;
+	color: #777777;
+	float:right;
+	margin-top: 55px;
+	
+}
+#big-coder #coder #coder-right #top-bot-right{
+	font-size: 40px;
+}
+#big-coder #coder #coder-right #bottom-bot-right{
+	
+	font-size:20px;
+	line-height: 40px;
+}
+#big-coder{
+	border:1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	background-color: #DDDDDD;
+}
+#facts{
+	border-bottom: 1px solid #CCCCCC;
+}
+#facts #small-facts{
+	
+	width: 1024px;
+	height: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+#facts #small-facts img{
+	
+	height: 500px;
+	float:left;
+}
+#facts #small-facts #fun-facts{
+	padding-top: 120px;
+}
+#facts #small-facts #fun-facts #fun-top{
+	font-size: 35px;
+	margin-bottom: 15px;
+	color: #444444;
+}
+#facts #small-facts #fun-facts #fun-bottom{
+	font-size: 18px;
+	line-height: 30px;
+	color: #666666;
+}
+#my-skills{
+	margin-top: -25px;
+	border-bottom:  1px solid #CCCCCC;
+	background-color: #DDDDDD;
+}
+#my-skills #small-my-skills{
+	width: 1024px;
+	height: 500px;
+	
+	margin:auto;
+}
+#my-skills #small-my-skills .text{
+	text-align: right;
+	font-size: 30px;
+}
+#my-skills #small-my-skills .char{
+	list-style-type: none;
+	line-height: 80px;
+}
+.bar{
+	float: left;
+	color: #777777;
+	width: 75px;
+	
+}
+.green{
+	float:left;
+	margin-left: 30px;
+	width: 168px;
+	height: 411px;
+	border: 1px solid;
+	background-color: #b0dbd6;
+	background: -webkit-linear-gradient(bottom,#8dc5be, #b0dbd6); /* Chrome 10+, Safari 5.1+ */
+    background: -o-linear-gradient(bottom,#8dc5be, #b0dbd6); /* Opera 11.1+ */
+    background: -moz-linear-gradient( bottom,#8dc5be, #b0dbd6); /* Firefox 3.6+ */
+    background: linear-gradient( bottom,#8dc5be, #b0dbd6); /* Standard syntax (must be last) */
+    /* Bạn nên đặt màu nền phòng trường hợp không tải được màu nền đậm/nhạt dần*/
+	border-color: #8dc5be;
+	border-radius: 4px;
+}
+.full-green{
+	
+	margin-top: 230px;
+
+}
+ .percent{
+	width: 90px;
+	height: 80px;
+	opacity: 0.4;
+
+	margin: auto;
+}
+ .percent-1{
+	float:left;
+	color:#FFFFFF;
+	font-size: 60px;
+}
+ .percent-2{
+	float:left;
+	color:#FFFFFF;
+	font-size: 30px;
+}
+.tea{
+	margin: auto;
+	clear:left;
+	width: 150px;
+	height: 80px;
+	text-align: center;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+.pink{
+	float:left;
+	margin-left: 30px;
+	width: 168px;
+	margin-top: 22px;
+	height: 390px;
+	border: 1px solid;
+	background-color: #f4dcd6;
+	background: -webkit-linear-gradient(bottom,#e1ae9e, #f4dcd6); /* Chrome 10+, Safari 5.1+ */
+    background: -o-linear-gradient(bottom,#e1ae9e, #f4dcd6); /* Opera 11.1+ */
+    background: -moz-linear-gradient( bottom,#e1ae9e, #f4dcd6); /* Firefox 3.6+ */
+    background: linear-gradient( bottom,#e1ae9e, #f4dcd6); /* Standard syntax (must be last) */
+    /* Bạn nên đặt màu nền phòng trường hợp không tải được màu nền đậm/nhạt dần*/
+	border-color: #ebc0b5;
+	border-radius: 4px;
+}
+.full-pink{
+	margin-top: 210px;
+}
+.yellow{
+	float:left;
+	margin-left: 30px;
+	width: 168px;
+	height: 411px;
+	border: 1px solid;
+	background-color: #efc563;
+	background: -webkit-linear-gradient(bottom,#dfae36, #efc563); /* Chrome 10+, Safari 5.1+ */
+    background: -o-linear-gradient(bottom,#dfae36, #efc563); /* Opera 11.1+ */
+    background: -moz-linear-gradient( bottom,#dfae36, #efc563); /* Firefox 3.6+ */
+    background: linear-gradient( bottom,#dfae36, #efc563); /* Standard syntax (must be last) */
+    /* Bạn nên đặt màu nền phòng trường hợp không tải được màu nền đậm/nhạt dần*/
+	border-color: #e7af30;
+	border-radius: 4px;
+}
+.full-yellow{
+	margin-top: 230px;
+}
+.brown{
+	float:left;
+	margin-left: 30px;
+	margin-top: 122px;
+	width: 168px;
+	height: 290px;
+	border: 1px solid;
+	background-color: #dcba83;
+	background: -webkit-linear-gradient(bottom,#bc8e5b, #dcba83); /* Chrome 10+, Safari 5.1+ */
+    background: -o-linear-gradient(bottom,#bc8e5b, #dcba83); /* Opera 11.1+ */
+    background: -moz-linear-gradient( bottom,#bc8e5b, #dcba83); /* Firefox 3.6+ */
+    background: linear-gradient( bottom,#bc8e5b, #dcba83); /* Standard syntax (must be last) */
+    /* Bạn nên đặt màu nền phòng trường hợp không tải được màu nền đậm/nhạt dần*/
+	border-color: #dcb386;
+	border-radius: 4px;
+}
+.full-brown{
+	margin-top: 110px;
+}
+#small-fea{
+	width: 1024px;
+	height: 500px;
+	margin: auto;
+	
+}
+#small-fea #fea{
+	float: left;
+	
+	width: 400px;
+	height: 300px;
+	margin-top: 170px;
+	margin-left: 30px;
+}
+#small-fea #fea #fea-intro{
+	font-size: 30px;
+}
+#small-fea #fea #fea-infor{
+	font-size: 17px;
+	line-height: 25px;
+}
+#small-fea img{
+	float:left;
+	margin-top: 80px;
+}
+#featured{
+	border-bottom: 1px solid #CCCCCC;
+}
+#sign{
+	background-color: #DDDDDD;
+	margin-top: -30px;
+}
+#sign .small-sign{
+	width: 1024px;
+	height: 94px;
+	border: none;
+	margin:auto;
+}
+#copy{
+	margin-left: 30px;
+	line-height: 62px;
+	color: #888888;
+	float: left;
+}
+.how-about ul li{
+	list-style-type: none;
+	float: left;
+	margin-left: 100px;
+	line-height: 62px;
+}
+.how-about ul li a{
+	color: #888888;
+}
+#follow-me{
+	float: left;
+	line-height: 62px;
+	margin-left: 150px;
+	color: #888888;
+}
